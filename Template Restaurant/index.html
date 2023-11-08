@@ -60,7 +60,7 @@
     <!-- End of Home Section -->
     <!-- About us section-->
 
-    <section id="about" class="about"> 
+    <section id="about" class="about" style="padding-left: 50px;"> 
         <div class="container" data-aos="fade-up"> 
             <div class="section-title"> 
                 <h3>About</h3> 
@@ -149,139 +149,324 @@
                 role="tablist"> 
                 <li class="nav-item"> 
                 <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" 
-                    aria-selected="true">Show All</a> 
+                  aria-selected="true">Show All</a> 
                 </li> 
-                <li class="nav-item"> 
+                <li class="nav-item">  
                 <a class="nav-link" id="beverages-tab" data-toggle="tab" href="#beverages" role="tab" 
-                    aria-controls="beverages" aria-selected="false">Beverages</a> 
-                </li> 
-                <li class="nav-item"> 
-                <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" 
-                  aria-selected="false">Lunch</a> 
-                </li> 
-                <li class="nav-item"> 
-                <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner" 
-                  aria-selected="false">Dinner</a> 
-                </li> 
-            </ul> 
+                  aria-controls="beverages" aria-selected="false">Beverages</a> 
+                </li>    
+                <li class="nav-item">    
+                <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch"   
+                  aria-selected="false">Lunch</a>    
+                </li>     
+                <li class="nav-item">     
+                <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner"     
+                  aria-selected="false">Dinner</a>    
+                </li>    
+            </ul>     
         </div> 
-        <div class="tab-content mt-3" id="galleryTabContent"> 
-            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab"> 
-                <div class="row"> 
-<!-- Beverages -->
-                    <div class="col-lg-6 menu-item filter-all"> 
-                        <div class="menu-content">                    
-                            <a href="#">Classic Lemonade</a><span>$3.50</span>                  
-                        </div>                    
-                        <div class="menu-ingredients">                    
-                            Freshly squeezed lemons with a hint of sweetness.                    
-                        </div>                   
-                    </div> 
-                    <div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Iced Coffee</a><span>$4.00</span>
+        <div class="container" data-aos="fade-up"> 
+            <div class="tab-content mt-3" id="galleryTabContent">
+                <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                    <div class="row">
+                        <div class="col-lg-6 menu-item filter-all">
+                            <div class="menu-content">
+                                <a href="#">Classic Lemonade</a><span>$3.50</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Freshly squeezed lemons with a hint of sweetness.
+                            </div>
                         </div>
-                        <div class="menu-ingredients">
-                            Chilled coffee served with ice cubes.
+                        <div class="col-lg-6 menu-item filter-all">
+                            <div class="menu-content">
+                                <a href="#">Grilled Chicken Sandwich</a><span>$11.50</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Juicy grilled chicken breast topped with lettuce, tomato, and mayo, served on a fresh bun.
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Fruit Smoothie</a><span>$5.25</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            A blend of fresh fruits and yogurt for a refreshing drink.
-                        </div>
-                    </div>
-                    <div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Espresso</a><span>$2.75</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            A strong and aromatic Italian coffee.
+                        <div class="col-lg-6 menu-item filter-all">
+                            <div class="menu-content">
+                                <a href="#">Grilled Filet Mignon</a><span>$25.95</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Tender filet mignon steak cooked to perfection, served with a side of garlic mashed potatoes
+                                and
+                                saut饤 asparagus.
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Cappuccino</a><span>$4.50</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            Espresso combined with steamed milk and a layer of frothed milk.
-                        </div>
-                    </div>
+                </div>
 
-                <!-- Lunch -->
-                    <div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Caprese Salad</a><span>$9.95</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            Fresh tomatoes, mozzarella, basil, and balsamic glaze.
+
+                
+                <div class="tab-pane fade" id="beverages" role="tabpanel" aria-labelledby="beverages-tab">
+                    <div class="row">
+                        <div class="col-lg-6 menu-item filter-beverages">
+                            <div class="menu-content">
+                                <a href="#">Classic Lemonade</a><span>$3.50</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Freshly squeezed lemons with a hint of sweetness.
+                            </div>
                         </div>
                     </div>
-<div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Mushroom Risotto</a><span>$13.75</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            Creamy risotto with sautéed mushrooms and Parmesan cheese.
                 </div>
-            </div>
-            <div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Chicken Alfredo</a><span>$12.50</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            Fettuccine pasta with grilled chicken in a creamy Alfredo sauce.
+                <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                    <div class="row">
+                        <div class="col-lg-6 menu-item filter-lunch">
+                            <div class="menu-content">
+                                <a href="#">Grilled Chicken Sandwich</a><span>$11.50</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Juicy grilled chicken breast topped with lettuce, tomato, and mayo, served on a fresh bun.
+                            </div>
                         </div>
                     </div>
-<div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Margherita Pizza</a><span>$10.95</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            Tomato, mozzarella, fresh basil, and olive oil.
                 </div>
-            </div>
-            
-                    <!-- Dinner -->
-                    <div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Grilled Filet Mignon</a><span>$25.95</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            Tender filet mignon steak with garlic mashed potatoes and sautéed asparagus.
-                        </div>
-                    </div>
-                    <div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Lobster Linguine</a><span>$22.75</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            Linguine pasta with succulent lobster and a rich seafood sauce.
-                        </div>
-                    </div>
-                    <div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Vegetarian Lasagna</a><span>$15.50</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            Layers of pasta, vegetables, and cheese in a savory marinara sauce.
-                        </div>
-                    </div>
-                    <div class="col-lg-6 menu-item filter-all">
-                        <div class="menu-content">
-                            <a href="#">Salmon Fillet</a><span>$18.95</span>
-                        </div>
-                        <div class="menu-ingredients">
-                            Grilled salmon fillet with lemon herb butter and roasted vegetables.
+                <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+                    <div class="row">
+                        <div class="col-lg-6 menu-item filter-dinner">
+                            <div class="menu-content">
+                                <a href="#">Grilled Filet Mignon</a><span>$25.95</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Tender filet mignon steak cooked to perfection, served with a side of garlic mashed potatoes
+                                and
+                                saut饤 asparagus.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+
+
+
+
+    </section> 
+
+     <!-- ======= Book A Table Section ======= --> 
+
+    <section id="book-a-table" class="book-a-table"> 
+        <div class="container" data-aos="fade-up"> 
+        <div class="section-title"> 
+            <h3>Reservation</h3> 
+            <p>Book a Table</p> 
+        </div> 
+        <form class="php-email-form" role="form"> 
+            <div class="row">
+            <div class="col-lg-4 col-md-6 form-group"> 
+                <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" 
+                data-msg="Please enter at least 4 chars" required> 
+                <div class="validate"></div> 
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0"> 
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" 
+                data-msg="Please enter a valid email" required> 
+                <div class="validate"></div> 
+            </div> 
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0"> 
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" data-rule="minlen:4" 
+                data-msg="Please enter at least 4 chars" required> 
+                <div class="validate"></div> 
+            </div> 
+            <div class="col-lg-4 col-md-6 form-group mt-3"> 
+                <input type="date" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" 
+                data-msg="Please enter at least 4 chars" required> 
+                <div class="validate"></div> 
+            </div> 
+            <div class="col-lg-4 col-md-6 form-group mt-3"> 
+                <input type="time" class="form-control" name="time" id="time" required> 
+                <small class="form-text text-muted">Please enter the time of your visit.</small> 
+            </div> 
+            <div class="col-lg-4 col-md-6 form-group mt-3"> 
+                <input type="number" class="form-control" name="people" id="people" placeholder="No. of people" 
+                data-rule="minlen:1" data-msg="Please enter at least 1 chars" required> 
+                <div class="validate"></div> 
+            </div> 
+            </div> 
+            <div class="form-group mt-3"> 
+            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea> 
+            <div class="validate"></div> 
+            </div> 
+            <div class="text-center"><button type="submit" 
+                onclick="showAlert('Reservation has been successfully booked!')">Book a Table</button> 
+            </div> 
+        </form> 
         </div> 
     </section> 
 
+<!-- End Book A Table Section --> 
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+
+        <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h3>Gallery</h3>
+            <p>Some photos from Our Restaurant</p>
+        </div>
+        </div>
+
+        <div class="container mt-5">
+        <ul class="nav nav-tabs custom-tabs" id="galleryTabs" role="tablist">
+            <li class="nav-item">
+            <a class="nav-link active" id="food-tab" data-toggle="tab" href="#food" role="tab" aria-controls="food"
+                aria-selected="true">Food</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" id="ambience-tab" data-toggle="tab" href="#ambience" role="tab" aria-controls="ambience"
+                aria-selected="false">Ambience</a>
+            </li>
+        </ul>
+
+        <div class="tab-content mt-3" id="galleryTabContent">
+            <div class="tab-pane fade show active" id="food" role="tabpanel" aria-labelledby="food-tab">
+            <div class="row">
+                <div class="col-md-4">
+                <img src="assets/images/food.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                <img src="assets/images/food2.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                <img src="assets/images/food3.jpg" class="img-fluid">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-4">
+                <img src="assets/images/food4.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                <img src="assets/images/food5.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                <img src="assets/images/food6.jpg" class="img-fluid">
+                </div>
+            </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="ambience" role="tabpanel" aria-labelledby="ambience-tab">
+            <div class="row">
+                <div class="col-md-4">
+                <img src="assets/images/download.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                <img src="assets/images/download.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                <img src="assets/images/download.jpg" class="img-fluid">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-4">
+                <img src="assets/images/download.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                <img src="assets/images/download.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                <img src="assets/images/download.jpg" class="img-fluid">
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+  
+  <!-- End Book A Gallery Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h3>Contact</h3>
+            <p>Contact Us</p>
+          </div>
+        </div>
+  
+        <div data-aos="fade-up">
+          <!-- Insert the URL of the restaurant's location that you prefer. -->
+          <iframe style="border:0; width: 100%; height: 350px;"
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6641.6162694677!2d-117.99591!3d33.662133!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1692763637266!5m2!1sen!2sus"
+            frameborder="0" allowfullscreen></iframe>
+        </div>
+  
+        <div class="container" data-aos="fade-up">
+  
+          <div class="row mt-5">
+  
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <h4>Location:</h4>
+                  <p>Insert the location of the restaurant's location that you prefer.</p>
+                </div>
+  
+                <div class="open-hours">
+                  <i class="bi bi-clock-fill"></i>
+                  <h4>Open Hours:</h4>
+                  <p>
+                    Monday - Sunday:<br>
+                    9:00 AM - 11:00 PM
+                  </p>
+                </div>
+  
+                <div class="email">
+                  <i class="bi bi-envelope-at-fill"></i>
+                  <h4>Email:</h4>
+                  <p>[Email Id]</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="bi bi-telephone-inbound-fill"></i>
+                  <h4>Phone:</h4>
+                  <p>[Phone Number]</p>
+                </div>
+  
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-8 mt-5 mt-lg-0">
+  
+              <form class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+                </div>
+  
+                <div class="text-center"><button type="submit" onclick="showAlert('Thank you for contacting us!')">Send
+                    Message</button></div>
+              </form>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+    </section><!-- End Contact Section -->
 
 </body>
 
